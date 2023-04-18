@@ -118,6 +118,13 @@ h6 {
   background: rgba(40, 58, 90, 0.9);
 }
 
+#header .logo-img {
+  position: absolute;
+  top: -5px;
+  left: -75px;
+  height: 75px;
+}
+
 #header .logo {
   font-size: 30px;
   margin: 0;

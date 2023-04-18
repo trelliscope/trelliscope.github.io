@@ -10,8 +10,12 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
+  <link rel="apple-touch-icon" type="image/png" sizes="120x120" href="assets/img/favicon/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" type="image/png" sizes="76x76" href="assets/img/favicon/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" type="image/png" sizes="60x60" href="assets/img/favicon/apple-touch-icon-60x60.png">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -34,11 +38,13 @@
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top ">
-    <div class="container d-flex align-items-center">
+    <div class="container d-flex align-items-center" style="position: relative;">
 
       <h1 class="logo me-auto"><a href="index.html">Trelliscope</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <!-- <a href="index.html" class="me-auto">
+        <img height="200px" src="assets/img/favicon/apple-touch-icon-180x180.png" alt="" class="img-fluid logo-img">
+      </a> -->
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -207,7 +213,7 @@
           <div class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-happy-beaming"></i></div>
-              <h4><a href="">Simple</a></h4>
+              <h4><a>Simple</a></h4>
               <p>We have designed Trelliscope to fit seamlessly into workflows familiar to data scientists, such as ggplot2 in R and other Tidyverse paradigms. You can get to a simple Trelliscope display quickly with minimal code.</p>
             </div>
           </div>
@@ -215,7 +221,7 @@
           <div class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-slider"></i></div>
-              <h4><a href="">Customizable</a></h4>
+              <h4><a>Customizable</a></h4>
               <p>While it is easy to produce results very quickly with Trellisope, it provides many utilities for customizing the output for the best user experience, including the default view, specifying other predefined views, fine-tuning how the metadata is displayed, and even allowing for user inputs.</p>
             </div>
           </div>
@@ -223,7 +229,7 @@
           <div class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-expand"></i></div>
-              <h4><a href="">Scalable</a></h4>
+              <h4><a>Scalable</a></h4>
               <p>Visualizing summary data is essential in exploratory analysis, but often important details can get lost in the summaries. The goal of Trelliscope is to make it fast and easy to explore data in detail, regardless of the size.</p>
             </div>
           </div>
@@ -231,7 +237,7 @@
           <div class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="400">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-share"></i></div>
-              <h4><a href="">Shareable</a></h4>
+              <h4><a>Shareable</a></h4>
               <p>The engine behind the Trelliscope viewer is written in JavaScript so there is no need for a special back-end setup to share Trelliscope displays. You can post on any web server or you can simply send the containing directory to your colleagues. We have also made it easy to embed Trelliscope displays in RMarkdown documents and Shiny apps.</p>
             </div>
           </div>
@@ -239,7 +245,7 @@
           <div class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="500">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-group"></i></div>
-              <h4><a href="">Collaborative</a></h4>
+              <h4><a>Collaborative</a></h4>
               <p>The interactive displays you create with Trelliscope empower domain experts to explore data in detail, enabling them to answer questions in real time without writing code. In our experience it has served as an engaging and powerful communication and translation medium between data scientists and domain experts.</p>
             </div>
           </div>
@@ -247,7 +253,7 @@
           <div class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="600">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-code-alt"></i></div>
-              <h4><a href="">Open Source</a></h4>
+              <h4><a>Open Source</a></h4>
               <p>Trelliscope is open source under the MIT license. Our code is your code.</p>
             </div>
           </div>
