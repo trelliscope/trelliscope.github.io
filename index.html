@@ -42,9 +42,9 @@
 
       <h1 class="logo me-auto"><a href="index.html">Trelliscope</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="me-auto">
-        <img height="200px" src="assets/img/favicon/apple-touch-icon-180x180.png" alt="" class="img-fluid logo-img">
-      </a> -->
+      <a href="index.html" class="me-auto">
+        <img src="assets/img/trlogo.svg" alt="" class="img-fluid logo-img">
+      </a>
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -79,7 +79,7 @@
           <h2>Trelliscope is an open source project that provides tools for data scientists to build and share interactive collections of visualizations for detailed data exploration and more.</h2>
           <div class="d-flex justify-content-center justify-content-lg-start">
             <a href="#about" class="btn-get-started scrollto">Get Started</a>
-            <a href="https://www.youtube.com/watch?v=" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+            <!-- <a href="https://www.youtube.com/watch?v=" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-in" data-aos-delay="300">
@@ -200,6 +200,137 @@
     </section>
     <!-- End About-How Section -->
 
+    <!-- ======= Examples Section ======= -->
+    <section id="examples" class="examples">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Examples</h2>
+          <p>Here are some examples of Trelliscope displays that you can explore. The associated code to create them is also provided.</p>
+        </div>
+
+        <!-- <ul id="examples-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+          <li data-filter="*" class="filter-active">all</li>
+          <li data-filter=".filter-ggplot">ggplot</li>
+          <li data-filter=".filter-image">images</li>
+          <li data-filter=".filter-html">htmlwidgets</li>
+        </ul> -->
+
+        <div class="row examples-container" data-aos="fade-up" data-aos-delay="200">
+          <!-- magic, bikeshare -->
+          <div class="col-xl-4 col-lg-6 examples-item filter-ggplot">
+            <div class="examples-img"><img src="assets/img/examples/housing.png" class="img-fluid" alt=""></div>
+            <div class="examples-info">
+              <h4>Zillow Housing Data</h4>
+              <p>Explore home prices and other relevant data over time for U.S. metro areas and counties</p>
+              <a href="https://apps.trelliscope.org/housing/" class="details-link" target="_blank" rel="noreferrer" title="Open example"><i class="bx bx-link-external"></i></a>
+              <a href="https://github.com/trelliscope/examples/tree/main/housing" class="preview-link" target="_blank" rel="noreferrer" title="Open code in GitHub data"><i class="bx bxl-github"></i></a>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-lg-6 examples-item filter-image">
+            <div class="examples-img"><img src="assets/img/examples/lego.png" class="img-fluid" alt=""></div>
+            <div class="examples-info">
+              <h4>LEGO Sets and Minifigs</h4>
+              <p>Explore every LEGO set and minifig cataloged by rebrickable.com</p>
+              <a href="https://apps.trelliscope.org/lego/" class="details-link" target="_blank" rel="noreferrer" title="Open example"><i class="bx bx-link-external"></i></a>
+              <a href="https://github.com/trelliscope/examples/tree/main/lego" class="preview-link" target="_blank" rel="noreferrer" title="Open code in GitHub"><i class="bx bxl-github"></i></a>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-lg-6 examples-item filter-ggplot">
+            <div class="examples-img"><img src="assets/img/examples/babynames.png" class="img-fluid" alt=""></div>
+            <div class="examples-info">
+              <h4>Baby Names</h4>
+              <p>Explore the popularity and other attributes of baby names over time since 1880</p>
+              <a href="https://apps.trelliscope.org/babynames/" class="details-link" target="_blank" rel="noreferrer" title="Open example"><i class="bx bx-link-external"></i></a>
+              <a href="https://github.com/trelliscope/examples/tree/main/babynames" class="preview-link" target="_blank" rel="noreferrer" title="Open code in GitHub"><i class="bx bxl-github"></i></a>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-lg-6 examples-item filter-html">
+            <div class="examples-img"><img src="assets/img/examples/mars.jpg" class="img-fluid" alt=""></div>
+            <div class="examples-info">
+              <h4>Mars Rover Images</h4>
+              <p>Explore over 1.1M images from the Mars rovers Curiosity, Opportunity, Perseverance, and Spirit</p>
+              <a href="https://apps.trelliscope.org/mars/" class="details-link" target="_blank" rel="noreferrer" title="Open example"><i class="bx bx-link-external"></i></a>
+              <a href="https://github.com/trelliscope/examples/tree/main/mars" class="preview-link" target="_blank" rel="noreferrer" title="Open code in GitHub"><i class="bx bxl-github"></i></a>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-lg-6 examples-item filter-html">
+            <div class="examples-img"><img src="assets/img/examples/gapminder.png" class="img-fluid" alt=""></div>
+            <div class="examples-info">
+              <h4>Life Expectancy</h4>
+              <p>Explore the history of life expectancy over time for 142 countries</p>
+              <a href="https://apps.trelliscope.org/gapminder/" class="details-link" target="_blank" rel="noreferrer" title="Open example"><i class="bx bx-link-external"></i></a>
+              <a href="https://github.com/trelliscope/examples/tree/main/gapminder" class="preview-link" target="_blank" rel="noreferrer" title="Open code in GitHub"><i class="bx bxl-github"></i></a>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-lg-6 examples-item filter-ggplot">
+            <div class="examples-img"><img src="assets/img/examples/mri.jpg" class="img-fluid" alt=""></div>
+            <div class="examples-info">
+              <h4>MRI Images</h4>
+              <p>Explore MRI images from oasis-brains.org of patients with and without dementia</p>
+              <a href="https://apps.trelliscope.org/mri/" class="details-link" target="_blank" rel="noreferrer" title="Open example"><i class="bx bx-link-external"></i></a>
+              <a href="https://github.com/trelliscope/examples/tree/main/mri" class="preview-link" target="_blank" rel="noreferrer" title="Open code in GitHub"><i class="bx bxl-github"></i></a>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-lg-6 examples-item filter-image">
+            <div class="examples-img"><img src="assets/img/examples/stocks.png" class="img-fluid" alt=""></div>
+            <div class="examples-info">
+              <h4>Stock Prices</h4>
+              <p>Explore price history and other information for about 3,000 US stocks</p>
+              <a href="https://apps.trelliscope.org/stocks/" class="details-link" target="_blank" rel="noreferrer" title="Open example"><i class="bx bx-link-external"></i></a>
+              <a href="https://github.com/trelliscope/examples/tree/main/stocks" class="preview-link" target="_blank" rel="noreferrer" title="Open code in GitHub"><i class="bx bxl-github"></i></a>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-lg-6 examples-item filter-image">
+            <div class="examples-img"><img src="assets/img/examples/pokemon.png" class="img-fluid" alt=""></div>
+            <div class="examples-info">
+              <h4>Pokemon</h4>
+              <p>Explore Pokemon by many of their characteristics as captured from Pokedex</p>
+              <a href="https://apps.trelliscope.org/pokemon/" class="details-link" target="_blank" rel="noreferrer" title="Open example"><i class="bx bx-link-external"></i></a>
+              <a href="https://github.com/trelliscope/examples/tree/main/pokemon" class="preview-link" target="_blank" rel="noreferrer" title="Open code in GitHub"><i class="bx bxl-github"></i></a>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-lg-6 examples-item filter-html">
+            <div class="examples-img"><img src="assets/img/examples/taxi.png" class="img-fluid" alt=""></div>
+            <div class="examples-info">
+              <h4>NYC Taxi Data</h4>
+              <p>Example of linking Trelliscope to a very large dataset of NYC taxi ride records</p>
+              <a href="https://trelliscope.org/trelliscope/articles/bigdata.html" class="details-link" target="_blank" rel="noreferrer" title="Open example"><i class="bx bx-link-external"></i></a>
+              <a href="https://github.com/trelliscope/examples/tree/main/nyc-taxi" class="preview-link" target="_blank" rel="noreferrer" title="Open code in GitHub"><i class="bx bxl-github"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- End examples Section -->
+    
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="fade-in">
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-start">
+            <h3>Get Started!</h3>
+            <p>High-level interfaces for generating Trelliscope displays are being developed for R, Python, and JavaScript. Currently the R interface is the only one ready for use. Click the button to learn how to start using the R package to visualize your data.</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="https://trelliscope.org/trelliscope/index.html">Get Started with R</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- End Cta Section -->
+
     <!-- ======= Services Section ======= -->
     <section id="goals" class="goals">
       <div class="container" data-aos="fade-up">
@@ -263,137 +394,6 @@
       </div>
     </section>
     <!-- End Services Section -->
-
-    <!-- ======= Cta Section ======= -->
-    <section id="cta" class="cta">
-      <div class="container" data-aos="fade-in">
-        <div class="row">
-          <div class="col-lg-9 text-center text-lg-start">
-            <h3>Get Started!</h3>
-            <p>High-level interfaces for generating Trelliscope displays are being developed for R, Python, and JavaScript. Currently the R interface is the only one ready for use. Click the button to learn how to start using the R package to visualize your data.</p>
-          </div>
-          <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="https://trelliscope.org/trelliscope/index.html">Get Started with R</a>
-          </div>
-        </div>
-
-      </div>
-    </section>
-    <!-- End Cta Section -->
-
-    <!-- ======= Examples Section ======= -->
-    <section id="examples" class="examples">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Examples</h2>
-          <p>Here are some examples of Trelliscope displays that you can explore. The associated code to create them is also provided.</p>
-        </div>
-
-        <ul id="examples-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-          <li data-filter="*" class="filter-active">all</li>
-          <li data-filter=".filter-ggplot">ggplot</li>
-          <li data-filter=".filter-image">images</li>
-          <li data-filter=".filter-html">htmlwidgets</li>
-        </ul>
-
-        <div class="row examples-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-4 col-md-6 examples-item filter-ggplot">
-            <div class="examples-img"><img src="https://fakeimg.pl/900x600/?retina=1&text=placeholder&font_size=80" class="img-fluid" alt=""></div>
-            <div class="examples-info">
-              <h4>Example 1</h4>
-              <p>Description</p>
-              <a href="#" data-gallery="examplesGallery" class="examples-lightbox preview-link" title="Example 1"><i class="bx bx-plus"></i></a>
-              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 examples-item filter-html">
-            <div class="examples-img"><img src="https://fakeimg.pl/900x600/?retina=1&text=placeholder&font_size=80" class="img-fluid" alt=""></div>
-            <div class="examples-info">
-              <h4>Example 2</h4>
-              <p>Description</p>
-              <a href="#" data-gallery="examplesGallery" class="examples-lightbox preview-link" title="Example 2"><i class="bx bx-plus"></i></a>
-              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 examples-item filter-ggplot">
-            <div class="examples-img"><img src="https://fakeimg.pl/900x600/?retina=1&text=placeholder&font_size=80" class="img-fluid" alt=""></div>
-            <div class="examples-info">
-              <h4>Example 3</h4>
-              <p>Description</p>
-              <a href="#" data-gallery="examplesGallery" class="examples-lightbox preview-link" title="Example 3"><i class="bx bx-plus"></i></a>
-              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 examples-item filter-image">
-            <div class="examples-img"><img src="https://fakeimg.pl/900x600/?retina=1&text=placeholder&font_size=80" class="img-fluid" alt=""></div>
-            <div class="examples-info">
-              <h4>Example 4</h4>
-              <p>Description</p>
-              <a href="#" data-gallery="examplesGallery" class="examples-lightbox preview-link" title="Example 4"><i class="bx bx-plus"></i></a>
-              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 examples-item filter-html">
-            <div class="examples-img"><img src="https://fakeimg.pl/900x600/?retina=1&text=placeholder&font_size=80" class="img-fluid" alt=""></div>
-            <div class="examples-info">
-              <h4>Example 5</h4>
-              <p>Description</p>
-              <a href="#" data-gallery="examplesGallery" class="examples-lightbox preview-link" title="Example 5"><i class="bx bx-plus"></i></a>
-              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 examples-item filter-ggplot">
-            <div class="examples-img"><img src="https://fakeimg.pl/900x600/?retina=1&text=placeholder&font_size=80" class="img-fluid" alt=""></div>
-            <div class="examples-info">
-              <h4>Example 6</h4>
-              <p>Description</p>
-              <a href="#" data-gallery="examplesGallery" class="examples-lightbox preview-link" title="Example 6"><i class="bx bx-plus"></i></a>
-              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 examples-item filter-image">
-            <div class="examples-img"><img src="https://fakeimg.pl/900x600/?retina=1&text=placeholder&font_size=80" class="img-fluid" alt=""></div>
-            <div class="examples-info">
-              <h4>Example 7</h4>
-              <p>Description</p>
-              <a href="#" data-gallery="examplesGallery" class="examples-lightbox preview-link" title="Example 7"><i class="bx bx-plus"></i></a>
-              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 examples-item filter-image">
-            <div class="examples-img"><img src="https://fakeimg.pl/900x600/?retina=1&text=placeholder&font_size=80" class="img-fluid" alt=""></div>
-            <div class="examples-info">
-              <h4>Example 8</h4>
-              <p>Description</p>
-              <a href="#" data-gallery="examplesGallery" class="examples-lightbox preview-link" title="Example 8"><i class="bx bx-plus"></i></a>
-              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 examples-item filter-html">
-            <div class="examples-img"><img src="https://fakeimg.pl/900x600/?retina=1&text=placeholder&font_size=80" class="img-fluid" alt=""></div>
-            <div class="examples-info">
-              <h4>Example 9</h4>
-              <p>Description</p>
-              <a href="#" data-gallery="examplesGallery" class="examples-lightbox preview-link" title="Example 9"><i class="bx bx-plus"></i></a>
-              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-    <!-- End examples Section -->
 
   </main>
   <!-- End #main -->
